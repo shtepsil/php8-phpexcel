@@ -4,8 +4,8 @@
     "type": "library",
     "license": "proprietary",
     "autoload": {
-        "psr-4": {
-            "Phpoffice\\Php8Phpexcel\\": "src/"
+        "psr-0": {
+            "TestPhpExcel": "src/"
         }
     },
     "authors": [
