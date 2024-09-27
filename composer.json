@@ -1,5 +1,5 @@
 {
-    "name": "phpoffice/php8-phpexcel",
+    "name": "phpoffice8/php8-phpexcel",
     "description": "phpexcel library for php-8",
     "type": "library",
     "license": "proprietary",
