@@ -98,8 +98,11 @@ class PHPExcel_Shared_Drawing
      * @param     PHPExcel_Style_Font $pDefaultFont    Default font of the workbook
      * @return     int        Value in pixels
      */
-    public static function cellDimensionToPixels($pValue = 0, PHPExcel_Style_Font $pDefaultFont)
+    public static function cellDimensionToPixels($pValue, PHPExcel_Style_Font $pDefaultFont)
     {
+
+        if (!$pValue) $pValue = 0;
+
         // Font name and size
         $name = $pDefaultFont->getName();
         $size = $pDefaultFont->getSize();
