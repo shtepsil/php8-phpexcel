@@ -1,0 +1,19 @@
+{
+    "name": "phpoffice/php8-phpexcel",
+    "description": "phpexcel library for php-8",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Phpoffice\\Php8Phpexcel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sergey brazhnikov",
+            "email": "akvarius_84@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
