@@ -1,6 +1,6 @@
 <?php
 // comment
-class Test
+class TestPhpExcel
 {
     public function run()
     {
